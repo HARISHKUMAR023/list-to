@@ -13,15 +13,15 @@ setitems((previesitem)=>{
   };
   console.log(items);
   return (
-    <div className="Container">
-      <div className='heading'></div>
-      <h1 className="text-3xl font-bold underline">
+    <div className="Container text-center">
+      <div className='heading'> <h1 className="text-7xl text-blue-600  font-bold drop-shadow-lg">
       To-do-list
-    </h1>
+    </h1></div>
+     
     <Inputs additems={additems}/>
-    <div>
+    <div className='mt-5 mx-mymr rounded-md drop-shadow-lg'>
       <ul>
-
+      
         {
           items.map((item,index)=>{
             return(
